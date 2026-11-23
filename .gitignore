@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+# Cloned GitHub repositories
+backend/repos/
+# ChromaDB
+backend/chroma_db/
+backend/chroma/
+chroma_db/
+# Logs
+*.log
+logs/
+# Frontend
+node_modules/
+dist/
+dist-ssr/
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
